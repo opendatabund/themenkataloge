@@ -1,0 +1,62 @@
+html {
+  --base-font-size: 22px;
+}
+body {
+  --bg-color: #1d2229;
+  --bg-header: #31363d;
+  --bg-footer: #14161d;
+  --work-card-bg: #222327;
+  --body-color: #f3f3f3;
+  --title-color: #ffffff;
+  --link-color: #4ecca3;
+  --accent-color: #4ecca3;
+  --border-color: rgba(90, 90, 90, 0.253);
+  --card-tag-bg: #11111198;
+  --code-bg: #11111198;
+  --space: 3.5rem;
+}
+@media screen and (max-width: 650px) {
+  html {
+    --base-font-size: 18px;
+  }
+}
+
+// ==========================================================================
+// # VARIABLES
+// ==========================================================================
+
+// COLORS
+$white: #fff;
+$off-white: #fafafa;
+$black: #323232;
+$grey: #6C7A89;
+$grey-light: #95A5A6;
+$blue: #2574A9;
+$dark-blue: #34495e;
+$green: #16a085;
+
+// UNITS
+$spacing-unit: 40px;
+$half-spacing-unit: $spacing-unit / 2;
+
+// BORDER
+$accordion-border: solid 2px $grey-light;
+
+// ANIMATION
+$transition-time: 0.2s;
+@mixin base-trans {
+    transition: all ease-in-out $transition-time;
+}
+
+// LINKS
+@mixin link-underline($color: currentColor, $size: -2px) {
+    box-shadow: inset 0 $size $color;
+}
+
+@mixin active-link() {
+    color: $blue;
+
+    .icon-link__text { @include link-underline($blue, -3px); }
+
+    svg { fill: $blue; }
+}

@@ -1,0 +1,37 @@
+<template>
+  <Layout>
+    <div class="work-cards">
+      <WorkCard v-for="edge in $page.themenkatalog.edges" :key="edge.node.id" :work="edge.node" />
+    </div>
+  </Layout>
+</template>
+
+<page-query>
+query{
+  themenkatalog: allThemenkatalog( sortBy: "name", order: ASC){
+    edges{
+      node{
+        title
+        path
+        cover_image(width: 700, height: 400, blur: 7, fit:cover )
+      }
+    }
+  }
+}
+
+</page-query>
+
+<script>
+import WorkCard from '~/components/WorkCard.vue';
+export default {
+  components: {
+    WorkCard
+  },
+  metaInfo: {
+    title: 'Themenkataloge'
+  }
+};
+</script>
+
+<style lang="scss">
+</style>
