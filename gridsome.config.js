@@ -4,8 +4,12 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
+
+
 module.exports = {
   siteName: 'Themenkataloge des Bundes',
+  siteUrl: 'https://thilakm-git.github.io',
+  pathPrefix: '/themenkataloge.bund',
     templates: {
       themenkatalog: [
       {
