@@ -23,7 +23,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
     "@fortawesome/free-brands-svg-icons": "^6.1.2",
     "@fortawesome/vue-fontawesome": "^2.0.8",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "sass-loader": "^8.0.0",
     "yarn-upgrade-all": "^0.7.1"
   }
