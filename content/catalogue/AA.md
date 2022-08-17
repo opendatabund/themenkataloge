@@ -1,21 +1,33 @@
 ---
 title: AA
 cover_image: /uploads/images/AA_Logo.svg.jpg
-full_title: 
+full_title: Ausw√§rtiges Amt
 date: 2019-04-20
+
 agri:
-econ:"Wirtschaftssfragen" OR "Handels- und Wirtschaftsrecht" OR "Wirtschaftsunion" OR "Wirtschaftsdiplomatie" OR "Wirtschaftssanktionen " OR "Wirtschaftspolitik" OR "Finanzhilfen" OR "Auﬂenfinanzierungsinstrumente" OR "externe Finanzkontrolle" OR "Wirtschaft und Menschenrechte" OR "Finanzierung des internationalen Klimaschutzes" OR "Klimaschutz in Entwicklungsbanken" OR "nachhaltige Finanzierung" OR "W‰hrungsunion" OR "Investitionspr¸fung" OR "Auﬂenwirtschaft"
-educ:"Kulturpolitik" OR "amtsinterne EU-Fortbildung" OR "Diplomatenausbildung" OR "Kulturbeziehungen" OR "Kulturgesellschaften" OR "Kulturprojekte" OR "Deutsches Arch‰ologisches Institut" OR "kulturpolitische Zusammenarbeit" OR "Sport" OR "interkulktureller Dialog" OR "Fˆrderung der deutschen Sprache in EU-Institutionen" OR "Goethe Institut" OR "Auslandsschulen" OR "Bildungspolitik" OR "Medienbeziehungen" OR "Kulturgutschutz"
-ener:"Dekarbonisierung" OR "Energieauﬂenpolitik" OR "Energieversorgung"
-envi:"Klima-Auﬂenpolitik" OR "nachhaltige Entwicklung" OR "Umweltvˆlkerrecht" OR "Umweltauﬂenpolitik" OR "Biodiversit‰t" OR "Umwelt-Auﬂenpolitik"
-heal:"Gesundheitsrecht" OR "auﬂenpolitische Dimension globaler Gesundheitsfragen"
-intr:"Menschenrechte" OR "Humanit‰re Hilfe" OR "Cyber-Auﬂenpolitik" OR "Krisenpr‰vention und Stabilisierung" OR "Auﬂenwirtschaft" OR "Klima" OR "Flucht und Migration" OR "Abr¸stung und R¸stungskontrolle" OR "Internationale Sicherheit" OR "Agenda 2030" OR "Internationale Arbeitnehmerrechte" OR "Urbanisierung" OR "Internationaler Katastrophenschutz" OR "Internationale Zusammenarbeit" OR "Internationale Konflikte in Kindschaftssachen"
-just:"Polizei" OR "Kriminalit‰t" OR "Gemeinsame Sicherheits- und Verteidigungpolitik" OR "Terrorismus" OR "Klima und Sicherheit" OR "organisierte Kriminalit‰t" OR "Drogenhandel"
+econ: >
+    "Wirtschaftssfragen" OR "Handels- und Wirtschaftsrecht" OR "Wirtschaftsunion" OR "Wirtschaftsdiplomatie" OR "Wirtschaftssanktionen " OR "Wirtschaftspolitik" OR "Finanzhilfen" OR "Au√üenfinanzierungsinstrumente" OR "externe Finanzkontrolle" OR "Wirtschaft und Menschenrechte" OR "Finanzierung des internationalen Klimaschutzes" OR "Klimaschutz in Entwicklungsbanken" OR "nachhaltige Finanzierung" OR "W√§hrungsunion" OR "Investitionspr√ºfung" OR "Au√üenwirtschaft"
+educ: >
+    "Kulturpolitik" OR "amtsinterne EU-Fortbildung" OR "Diplomatenausbildung" OR "Kulturbeziehungen" OR "Kulturgesellschaften" OR "Kulturprojekte" OR "Deutsches Arch√§ologisches Institut" OR "kulturpolitische Zusammenarbeit" OR "Sport" OR "interkulktureller Dialog" OR "F√∂rderung der deutschen Sprache in EU-Institutionen" OR "Goethe Institut" OR "Auslandsschulen" OR "Bildungspolitik" OR "Medienbeziehungen" OR "Kulturgutschutz"
+ener: >
+    "Dekarbonisierung" OR "Energieau√üenpolitik" OR "Energieversorgung "
+envi: >
+    "Klima-Au√üenpolitik" OR "nachhaltige Entwicklung" OR "Umweltv√∂lkerrecht" OR "Umweltau√üenpolitik" OR "Biodiversit√§t" OR "Umwelt-Au√üenpolitik"
+heal: >
+    "Gesundheitsrecht" OR "au√üenpolitische Dimension globaler Gesundheitsfragen"
+intr: >
+    "Menschenrechte" OR "Humanit√§re Hilfe" OR "Cyber-Au√üenpolitik" OR "Krisenpr√§vention und Stabilisierung" OR "Au√üenwirtschaft" OR "Klima" OR "Flucht und Migration" OR "Abr√ºstung und R√ºstungskontrolle" OR "Internationale Sicherheit" OR "Agenda 2030" OR "Internationale Arbeitnehmerrechte" OR "Urbanisierung" OR "Internationaler Katastrophenschutz" OR "Internationale Zusammenarbeit" OR "Internationale Konflikte in Kindschaftssachen"
+just: >
+    "Polizei" OR "Kriminalit√§t" OR "Gemeinsame Sicherheits- und Verteidigungpolitik" OR "Terrorismus" OR "Klima und Sicherheit" OR "organisierte Kriminalit√§t" OR "Drogenhandel"
 soci:
-gove:"Korruptionspr‰vention" OR "Abr¸stung" OR "Immobilienmanagement " OR "Informationsfreiheitsgesetz (Anfragestatistik)" OR "Organisationsstrukturen" OR "Budgets der Auslandsvertretungen" OR "Haushalt"
-regi:"humanit‰ren Hilfe in Regionen" OR "St‰dtediplomatie" OR "Urbanisierung"
-tech:"Forschung und Innovation " OR "Wissenschaftszusammenarbeit" OR "Technologiepolitik" OR "Internationale Wissenschaftspolitik" OR "Forschung und Innovation in der EU"
-tran:"Mobilit‰t"
+gove: >
+    "Korruptionspr√§vention" OR "Abr√ºstung" OR "Immobilienmanagement " OR "Informationsfreiheitsgesetz (Anfragestatistik)" OR "Organisationsstrukturen" OR "Budgets der Auslandsvertretungen" OR "Haushalt"
+regi: >
+    "humanit√§ren Hilfe in Regionen" OR "St√§dtediplomatie" OR "Urbanisierung"
+tech: >
+    "Forschung und Innovation " OR "Wissenschaftszusammenarbeit" OR "Technologiepolitik" OR "Internationale Wissenschaftspolitik" OR "Forschung und Innovation in der EU"
+tran: >
+    "Mobilit√§t"
 ---
 
 // dcat-ap Kategorien: https://github.com/GovDataOfficial/DCAT-AP.de/blob/cb608e76cf73b1fdccf6b137ab8b88c23f01f791/Releases/DCAT-AP.de%20V2.0/implRules/020_conventions_dataset.md#angaben-zu-kategorien-dcattheme-angaben-zu-kategorien
