@@ -5,18 +5,18 @@ id: 2
 ---
 Im Folgenden möchten wir Sie aufklären, wie Ihre Daten von uns verarbeitet werden.
 
-#### Verantwortlich im Sinne der DSGVO ist:
+##### Verantwortlich im Sinne der DSGVO ist:
 
 Bundesverwaltungsamt
 50728 Köln
 poststelle@bva.bund.de
 
-#### Unseren Datenschutzbeauftragten erreichen sie unter:
+##### Unseren Datenschutzbeauftragten erreichen sie unter:
 DGZ-Ring 12
 13086 Berlin
 datenschutzbeauftragter@bva.bund.de
 
-#### Hosting
+##### Hosting
 Unser Hoster erhebt in sog. Logfiles folgende Daten, die Ihr Browser übermittelt:
 
 IP-Adresse, die Adresse der vorher besuchten Website (Referer Anfrage-Header), Datum und Uhrzeit der Anfrage, Zeitzonendifferenz zur Greenwich Mean Time, Inhalt der Anforderung, HTTP-Statuscode, übertragene Datenmenge, Website, von der die Anforderung kommt und Informationen zu Browser und Betriebssystem.

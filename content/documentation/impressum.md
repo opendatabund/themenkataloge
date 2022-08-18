@@ -3,38 +3,38 @@ title: Impressum
 published: true
 id: 3
 ---
-#### Anbieter
+##### Anbieter
 Bundesverwaltungsamt
 Barbarastr. 1
 50735 Köln
 
-#### Kontakt
+##### Kontakt
 opendata@bva.bund.de
 
-#### Postanschrift
+##### Postanschrift
 Bundesverwaltungsamt
 50728 Köln
 
-#### Verantwortlich
+##### Verantwortlich
 Thilak Mahendran, Leiter des Kompetenzzentrums Open Data
 
-#### Redaktion
+##### Redaktion
 Thilak Mahendran, Jonas Schmitz
 
-#### Bildnachweis:
+##### Bildnachweis:
 Lizenzfrei oder CC-0 soweit nicht anders direkt bei Bildern vermerkt.
 
-#### Icons
+##### Icons
 fontawesome.com - CC BY 4.0 License
 
-#### Realisierung
+##### Realisierung
 Thilak Mahendran, Kompetenzzentrum Open Data
 
-#### Hosting
+##### Hosting
 Github via Github Pages
 
-#### Design
+##### Design
 Gridsome Portfolio Story - angepasst durch Thilak Mahendran
 
-#### Content Management System
+##### Content Management System
 Die Realisierung erfolgt mit Gridsome (static site generator)
