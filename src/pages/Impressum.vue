@@ -2,7 +2,7 @@
   <Layout>
     <div class="about text-white">
       <div class="about-text">
-        <h3>Impressum</h3>
+        <h2>Impressum</h2>
         <div v-html="$page.docs.content"></div>
       </div>
     </div>

@@ -1,45 +1,45 @@
 ---
-title: Datenschutzerklärung
+title: DatenschutzerklÃ¤rung
 published: true
 id: 2
 ---
-Im Folgenden möchten wir Sie aufklären, wie Ihre Daten von uns verarbeitet werden.
+Im Folgenden mÃ¶chten wir Sie aufklÃ¤ren, wie Ihre Daten von uns verarbeitet werden.
 
-## Verantwortlich im Sinne der DSGVO ist:
+#### Verantwortlich im Sinne der DSGVO ist:
 
 Bundesverwaltungsamt
-50728 Köln
+50728 KÃ¶ln
 poststelle@bva.bund.de
 
-## Unseren Datenschutzbeauftragten erreichen sie unter:
+#### Unseren Datenschutzbeauftragten erreichen sie unter:
 DGZ-Ring 12
 13086 Berlin
 datenschutzbeauftragter@bva.bund.de
 
-## Hosting
-Unser Hoster erhebt in sog. Logfiles folgende Daten, die Ihr Browser übermittelt:
+#### Hosting
+Unser Hoster erhebt in sog. Logfiles folgende Daten, die Ihr Browser Ã¼bermittelt:
 
-IP-Adresse, die Adresse der vorher besuchten Website (Referer Anfrage-Header), Datum und Uhrzeit der Anfrage, Zeitzonendifferenz zur Greenwich Mean Time, Inhalt der Anforderung, HTTP-Statuscode, übertragene Datenmenge, Website, von der die Anforderung kommt und Informationen zu Browser und Betriebssystem.
+IP-Adresse, die Adresse der vorher besuchten Website (Referer Anfrage-Header), Datum und Uhrzeit der Anfrage, Zeitzonendifferenz zur Greenwich Mean Time, Inhalt der Anforderung, HTTP-Statuscode, Ã¼bertragene Datenmenge, Website, von der die Anforderung kommt und Informationen zu Browser und Betriebssystem.
 
-Das ist erforderlich, um unsere Website anzuzeigen und die Stabilität und Sicherheit zu gewährleisten. Dies entspricht unserem berechtigten Interesse im Sinne des Art. 6 Abs. 1 S. 1 lit. f DSGVO.
+Das ist erforderlich, um unsere Website anzuzeigen und die StabilitÃ¤t und Sicherheit zu gewÃ¤hrleisten. Dies entspricht unserem berechtigten Interesse im Sinne des Art. 6 Abs. 1 S. 1 lit. f DSGVO.
 
-Es erfolgt kein Tracking und wir haben auf diese Daten keinen direkten Zugriff, sondern erhalten lediglich eine anonymisierte, statistische Zusammenfassung. Diese beinhaltet die Adresse der vorher besuchten Seite, die Häufigkeit der jeweils aufgerufenen Seiten und die Anzahl eindeutiger Besucher. Diese Daten führen wir nicht mit anderen Daten zusammen.
+Es erfolgt kein Tracking und wir haben auf diese Daten keinen direkten Zugriff, sondern erhalten lediglich eine anonymisierte, statistische Zusammenfassung. Diese beinhaltet die Adresse der vorher besuchten Seite, die HÃ¤ufigkeit der jeweils aufgerufenen Seiten und die Anzahl eindeutiger Besucher. Diese Daten fÃ¼hren wir nicht mit anderen Daten zusammen.
 
-Wir setzen für die Zurverfügungstellung unserer Website folgenden Hoster ein:
+Wir setzen fÃ¼r die ZurverfÃ¼gungstellung unserer Website folgenden Hoster ein:
 
 GitHub Inc.
 88 Colin P Kelly Jr St
 San Francisco, CA 94107
 United States
 
-Dieser ist Empfänger Ihrer personenbezogenen Daten. Dies entspricht unserem berechtigten Interesse im Sinne des Art. 6 Abs. 1 S. 1 lit. f DSGVO, selbst keinen Server in unseren Räumlichkeiten vorhalten zu müssen. Serverstandort ist USA.
+Dieser ist EmpfÃ¤nger Ihrer personenbezogenen Daten. Dies entspricht unserem berechtigten Interesse im Sinne des Art. 6 Abs. 1 S. 1 lit. f DSGVO, selbst keinen Server in unseren RÃ¤umlichkeiten vorhalten zu mÃ¼ssen. Serverstandort ist USA.
 
-Weitere Informationen zu Widerspruchs- und Beseitigungsmöglichkeiten gegenüber GitHub finden Sie unter: https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-privacy-statement#github-pages
+Weitere Informationen zu Widerspruchs- und BeseitigungsmÃ¶glichkeiten gegenÃ¼ber GitHub finden Sie unter: https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-privacy-statement#github-pages
 
-Sie haben das Recht der Verarbeitung zu widersprechen. Ob der Widerspruch erfolgreich ist, ist im Rahmen einer Interessenabwägung zu ermitteln.
+Sie haben das Recht der Verarbeitung zu widersprechen. Ob der Widerspruch erfolgreich ist, ist im Rahmen einer InteressenabwÃ¤gung zu ermitteln.
 
-Die Daten werden gelöscht, sobald der Zweck der Verarbeitung entfällt.
+Die Daten werden gelÃ¶scht, sobald der Zweck der Verarbeitung entfÃ¤llt.
 
-Die Verarbeitung der unter diesem Abschnitt angegebenen Daten ist weder gesetzlich noch vertraglich vorgeschrieben. Die Funktionsfähigkeit der Website ist ohne die Verarbeitung nicht gewährleistet.
+Die Verarbeitung der unter diesem Abschnitt angegebenen Daten ist weder gesetzlich noch vertraglich vorgeschrieben. Die FunktionsfÃ¤higkeit der Website ist ohne die Verarbeitung nicht gewÃ¤hrleistet.
 
-GitHub hat Compliance-Maßnahmen für internationale Datenübermittlungen umgesetzt. Diese gelten für alle weltweiten Aktivitäten, bei denen GitHub personenbezogene Daten von natürlichen Personen in der EU verarbeitet. Diese Maßnahmen basieren auf den EU-Standardvertragsklauseln (SCCs). Weitere Informationen finden Sie unter: https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-data-protection-addendum#attachment-1?the-standard-contractual-clauses-processors
+GitHub hat Compliance-MaÃŸnahmen fÃ¼r internationale DatenÃ¼bermittlungen umgesetzt. Diese gelten fÃ¼r alle weltweiten AktivitÃ¤ten, bei denen GitHub personenbezogene Daten von natÃ¼rlichen Personen in der EU verarbeitet. Diese MaÃŸnahmen basieren auf den EU-Standardvertragsklauseln (SCCs). Weitere Informationen finden Sie unter: https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-data-protection-addendum#attachment-1?the-standard-contractual-clauses-processors

@@ -2,7 +2,7 @@
   <Layout>
     <div class="about text-white">
       <div class="about-text">
-        <h3>Datenschutzerklärung</h3>
+        <h2>Datenschutzerklärung</h2>
         <div v-html="$page.docs.content"></div>
       </div>
     </div>
