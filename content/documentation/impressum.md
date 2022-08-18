@@ -1,11 +1,8 @@
 ---
 title: Impressum
 published: true
-id: 1
+id: 3
 ---
-# Impressum
-
-
 ## Anbieter
 Bundesverwaltungsamt
 Barbarastr. 1

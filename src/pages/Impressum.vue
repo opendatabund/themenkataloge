@@ -2,7 +2,7 @@
   <Layout>
     <div class="about text-white">
       <div class="about-text">
-        <h3>Datenschutzerklärung</h3>
+        <h3>Impressum</h3>
         <div v-html="$page.docs.content"></div>
       </div>
     </div>
@@ -11,7 +11,7 @@
 
 <page-query>
 query {
-  docs(id: "1") {
+  docs(id: "3") {
     content
   }
 }
