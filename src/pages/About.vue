@@ -19,7 +19,7 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: 'About Me'
+    title: 'Warum Themenkataloge'
   }
 };
 </script>

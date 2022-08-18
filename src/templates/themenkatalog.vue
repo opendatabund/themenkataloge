@@ -5,8 +5,6 @@
         <b-img :src="$page.themenkatalog.cover_image" fluid></b-img>
         <h5 class="text-white"><br>Themenkataloge<br><small class="text-muted">{{$page.themenkatalog.full_title}}</small></h5>
       </aside>
-      <article class="text-white">
-      <div v-html="$static.docs.content" /></article>
      <div class="content">
       <div class="alert alert-primary" role="alert">
   <font-awesome-icon icon="fa-solid fa-lightbulb" /> Finde schnell Beispieldatensätze zu Fachthemen, die im {{$page.themenkatalog.title}} liegen.
@@ -144,13 +142,6 @@ query ($id: ID!) {
 }
 </page-query>
 
-<static-query>
-query {
-  docs(id:"2") {
-  content
-  }
-}
-</static-query>
 
 <script>
 export default {
