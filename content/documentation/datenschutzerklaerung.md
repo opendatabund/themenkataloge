@@ -3,6 +3,8 @@ title: Datenschutzerklärung
 published: true
 id: 2
 ---
+## Datenschutzerklärung
+
 Im Folgenden möchten wir Sie aufklären, wie Ihre Daten von uns verarbeitet werden.
 
 ##### Verantwortlich im Sinne der DSGVO ist:

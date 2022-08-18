@@ -2,7 +2,6 @@
   <Layout>
     <div class="about text-white">
       <div class="about-text">
-        <h3>Anleitung</h3>
         <div v-html="$page.docs.content"></div>
       </div>
     </div>

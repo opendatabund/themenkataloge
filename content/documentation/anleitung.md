@@ -3,7 +3,6 @@ title: Anleitung
 published: true
 id: 1
 ---
-
 ##### Hintergrund
 
 Wenn Sie die Veröffentlichung von Daten planen und vorbereiten, ist es empfehlenswert, einen **internen Datenkatalog** zu erstellen. Dieser kann Daten verzeichnen, die in anderer Form bereits veröffentlicht worden sind, oder Daten, die neu veröffentlicht werden sollen. Zur Erstellung eines internes Datenkatalogs empfiehlt sich ein **Datenscreening**. Dies sollte als *Selbst-Screening*, *Fremd*- und *Stakeholder-Screening* durchgeführt werden [1, 2]. Die Themenkataloge bildet das **Fremd-Screening** ab.
