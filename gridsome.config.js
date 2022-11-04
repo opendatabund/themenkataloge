@@ -13,7 +13,7 @@ module.exports = {
     templates: {
       themenkatalog: [
       {
-        path:'/behoerde/:title'
+        path:'/:title'
       }
     ]
   },
