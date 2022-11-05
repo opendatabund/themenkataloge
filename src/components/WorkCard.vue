@@ -81,6 +81,7 @@ export default {
     opacity: 0;
   }
 }
+
 .work-card-header {
   position: absolute;
   top: 0;
@@ -89,9 +90,11 @@ export default {
   height: 250px;
   overflow: hidden;
 }
+
 .work-image {
   min-width: 100%;
 }
+
 @media screen and (max-width: 625px) {
   .work-card {
     width: 90%;
