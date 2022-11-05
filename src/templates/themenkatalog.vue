@@ -1,121 +1,311 @@
 <template>
-  <Layout>
-    <div class="work-container">
-      <aside class="sidebar">
-        <b-img :src="$page.themenkatalog.cover_image" fluid></b-img>
-        <h5 class="text-white"><br>Themenkataloge<br><small class="text-muted">{{$page.themenkatalog.full_title}}</small></h5>
-      </aside>
-      </div>
-     <div class="content">
-      <div class="alert alert-primary" role="alert">
-  <font-awesome-icon icon="fa-solid fa-lightbulb" /> Finde schnell Beispieldatensätze zu Fachthemen, die im {{$page.themenkatalog.title}} liegen.
-</div>
-      <table class="table table-dark table-striped table-hover">
-  <thead>
-    <tr class="text-center">
-      <th scope="col"></th>
-      <th scope="col" class="text-start"><strong>DCAT-AP-Kategorien</strong></th>
-      <th scope="col"><strong><abbr title="Nur nach Datensätzen aus Deutschland suchen">DE</abbr></strong></th>
-      <th scope="col"><strong><abbr title="Nur nach Datensätzen aus Europa (ohne Deutschland) suchen">EU</abbr></strong></th>
-      <th scope="col"><strong><abbr title="Nach Datensätzen aus Gesamteuropa (inkl. Deutschland) suchen">Gesamt</abbr></strong></th>
-    </tr>
-  </thead>
-  <tbody class="table-group-divider">
-    <tr>
-      <th scope="row" class="text-center"><font-awesome-icon icon="fa-solid fa-tractor" /></th>
-      <th scope="row">Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel</th>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.agri + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.agri + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.agri + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-    </tr>
-    <tr>
-      <th scope="row" class="text-center"><font-awesome-icon icon="fa-solid fa-chart-line" /></th>
-      <th scope="row">Wirtschaft und Finanzen</th>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.econ + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.econ + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.econ + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-    </tr>
-    <tr>
-      <th scope="row" class="text-center"><font-awesome-icon icon="fa-solid fa-school" /></th>
-      <th scope="row">Bildung, Kultur und Sport</th>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.educ + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.educ + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.educ + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-    </tr>
-    <tr>
-      <th scope="row" class="text-center"><font-awesome-icon icon="fa-solid fa-lightbulb" /></th>
-      <th scope="row">Energie</th>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.ener + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.ener + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.ener + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-    </tr>
-        <tr>
-      <th scope="row" class="text-center"><font-awesome-icon icon="fa-solid fa-seedling" /></th>
-      <th scope="row">Umwelt</th>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.envi + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.envi + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.envi + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-    </tr>
-        <tr>
-      <th scope="row" class="text-center"><font-awesome-icon icon="fa-solid fa-file-medical" /></th>
-      <th scope="row">Gesundheit</th>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.heal + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.heal + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.heal + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-    </tr>
-        <tr>
-      <th scope="row" class="text-center"><font-awesome-icon icon="fa-solid fa-globe" /></th>
-      <th scope="row">Internationale Themen</th>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.intr + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.intr + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.intr + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-    </tr>
-        <tr>
-      <th scope="row" class="text-center"><font-awesome-icon icon="fa-solid fa-section" /></th>
-      <th scope="row">Justiz, Rechtssystem und öffentliche Sicherheit</th>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.just + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.just + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.just + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-    </tr>
-        <tr>
-      <th scope="row" class="text-center"><font-awesome-icon icon="fa-solid fa-people-group" /></th>
-      <th scope="row">Bevölkerung und Gesellschaft</th>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.soci + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.soci + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.soci + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-    </tr>
-        <tr>
-      <th scope="row" class="text-center"><font-awesome-icon icon="fa-solid fa-landmark" /></th>
-      <th scope="row">Regierung und öffentlicher Sektor</th>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.gove + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.gove + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.gove + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-    </tr>
-        <tr>
-      <th scope="row" class="text-center"><font-awesome-icon icon="fa-solid fa-tree-city" /></th>
-      <th scope="row">Regionen und Städte</th>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.regi + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.regi + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.regi + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-    </tr>
-        <tr>
-      <th scope="row" class="text-center"><font-awesome-icon icon="fa-solid fa-atom" /></th>
-      <th scope="row">Wissenschaft und Technologie</th>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.tech + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.tech + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.tech + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-    </tr>
-        <tr>
-      <th scope="row" class="text-center"><font-awesome-icon icon="fa-solid fa-bus" /></th>
-      <th scope="row">Verkehr</th>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.tran + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.tran + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-      <td><a v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.tran + '&facetOperator=OR'"><button type="button" class="btn btn-secondary btn-sm"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></button></a></td>
-    </tr>
-  </tbody>
-</table>
-    </div>
-  </Layout>
+    <Layout>
+        <div class="work-container">
+            <aside class="sidebar">
+                <b-img :src="$page.themenkatalog.cover_image" fluid></b-img>
+                <h5 class="text-white"><br>Themenkataloge<br><small
+                        class="text-muted">{{ $page.themenkatalog.full_title }}</small></h5>
+            </aside>
+        </div>
+        <div class="content">
+            <div class="alert alert-primary" role="alert">
+                <font-awesome-icon icon="fa-solid fa-lightbulb" /> Finde schnell Beispieldatensätze zu Fachthemen, die
+                im {{ $page.themenkatalog.title }} liegen.
+            </div>
+            <table class="table table-dark table-striped table-hover">
+                <thead>
+                    <tr class="text-center">
+                        <th scope="col"></th>
+                        <th scope="col" class="text-start"><strong>DCAT-AP-Kategorien</strong></th>
+                        <th scope="col"><strong><abbr
+                                    title="Nur nach Datensätzen aus Deutschland suchen">DE</abbr></strong></th>
+                        <th scope="col"><strong><abbr
+                                    title="Nur nach Datensätzen aus Europa (ohne Deutschland) suchen">EU</abbr></strong>
+                        </th>
+                        <th scope="col"><strong><abbr
+                                    title="Nach Datensätzen aus Gesamteuropa (inkl. Deutschland) suchen">Gesamt</abbr></strong>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr>
+                        <th scope="row" class="text-center">
+                            <font-awesome-icon icon="fa-solid fa-tractor" />
+                        </th>
+                        <th scope="row">Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel</th>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.agri + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.agri + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.agri + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="text-center">
+                            <font-awesome-icon icon="fa-solid fa-chart-line" />
+                        </th>
+                        <th scope="row">Wirtschaft und Finanzen</th>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.econ + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.econ + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.econ + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="text-center">
+                            <font-awesome-icon icon="fa-solid fa-school" />
+                        </th>
+                        <th scope="row">Bildung, Kultur und Sport</th>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.educ + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.educ + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.educ + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="text-center">
+                            <font-awesome-icon icon="fa-solid fa-lightbulb" />
+                        </th>
+                        <th scope="row">Energie</th>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.ener + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.ener + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.ener + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="text-center">
+                            <font-awesome-icon icon="fa-solid fa-seedling" />
+                        </th>
+                        <th scope="row">Umwelt</th>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.envi + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.envi + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.envi + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="text-center">
+                            <font-awesome-icon icon="fa-solid fa-file-medical" />
+                        </th>
+                        <th scope="row">Gesundheit</th>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.heal + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.heal + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.heal + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="text-center">
+                            <font-awesome-icon icon="fa-solid fa-globe" />
+                        </th>
+                        <th scope="row">Internationale Themen</th>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.intr + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.intr + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.intr + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="text-center">
+                            <font-awesome-icon icon="fa-solid fa-section" />
+                        </th>
+                        <th scope="row">Justiz, Rechtssystem und öffentliche Sicherheit</th>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.just + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.just + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.just + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="text-center">
+                            <font-awesome-icon icon="fa-solid fa-people-group" />
+                        </th>
+                        <th scope="row">Bevölkerung und Gesellschaft</th>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.soci + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.soci + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.soci + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="text-center">
+                            <font-awesome-icon icon="fa-solid fa-landmark" />
+                        </th>
+                        <th scope="row">Regierung und öffentlicher Sektor</th>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.gove + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.gove + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.gove + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="text-center">
+                            <font-awesome-icon icon="fa-solid fa-tree-city" />
+                        </th>
+                        <th scope="row">Regionen und Städte</th>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.regi + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.regi + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.regi + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="text-center">
+                            <font-awesome-icon icon="fa-solid fa-atom" />
+                        </th>
+                        <th scope="row">Wissenschaft und Technologie</th>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.tech + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.tech + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.tech + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="text-center">
+                            <font-awesome-icon icon="fa-solid fa-bus" />
+                        </th>
+                        <th scope="row">Verkehr</th>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&page=1&query=' + $page.themenkatalog.tran + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.tran + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                        <td><a
+                                v-bind:href="'https://data.europa.eu/data/datasets?locale=de&catalog=govdata&catalog=dane-gov-pl&catalog=datos-gob-es&catalog=data-gov-be&catalog=mita&catalog=data-gov-me&catalog=government-open-data-portal-moldova&catalog=geocat-li&catalog=data-gov-ie&catalog=mfgi&catalog=national-open-data-portal-cyprus&catalog=opendata-swiss&catalog=open-data-bulgaria&catalog=ng-ee&catalog=open-data-dk&catalog=data-gov-ua&catalog=open-data-portal-serbia&catalog=dados-gov-pt&catalog=data-gov-lt&catalog=dati-gov-it&catalog=open-data-iceland&catalog=open-data-greece&catalog=data-gov-uk&catalog=data-norge-no&catalog=dataportaal-van-de-nederlandse-overheid&catalog=data-gov-lv&catalog=geoportal-lu&catalog=plateforme-ouverte-des-donnees-publiques-francaises&catalog=data-gv-at&catalog=data-gov-sk&catalog=odprti-podatki-slovenije&catalog=oppnadata&catalog=data-gov-ro&catalog=data-grad-zagreb&catalog=nkod-opendata-cz&page=1&query=' + $page.themenkatalog.tran + '&facetOperator=OR'"><button
+                                    type="button" class="btn btn-secondary btn-sm">
+                                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                                </button></a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </Layout>
 </template>
 
 <page-query>
@@ -143,40 +333,44 @@ query themenkatalog($path: String!) {
 
 <script>
 export default {
-  metaInfo() {
-    return {
-      title: this.$page.themenkatalog.title
-    };
-  },
+    metaInfo() {
+        return {
+            title: this.$page.themenkatalog.title
+        };
+    },
 };
 </script>
 
 <style lang="scss">
 .sidebar {
-  .work-details {
-    display: table;
-    table-layout: fixed;
-    strong {
-      width: 150px;
-      display: table-cell;
+    .work-details {
+        display: table;
+        table-layout: fixed;
+
+        strong {
+            width: 150px;
+            display: table-cell;
+        }
+
+        & a.work-link {
+            color: #ffffff;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .work-container {
+        width: 100%;
+        display: flex;
     }
 
-    & a.work-link {
-      color: #ffffff;
+    .sidebar {
+        flex-basis: 35%;
+        padding-right: 3rem;
     }
-  }
-}
-@media screen and (min-width: 1024px) {
-  .work-container {
-    width: 100%;
-    display: flex;
-  }
-  .sidebar {
-    flex-basis: 35%;
-    padding-right: 3rem;
-  }
-  .content {
-    flex: 1;
-  }
+
+    .content {
+        flex: 1;
+    }
 }
 </style>

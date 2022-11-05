@@ -2,7 +2,9 @@
   <div>
     <header class="header">
       <div class="navigation-bar">
-          <g-link class="nav__link" to="/"><font-awesome-icon icon="fa-solid fa-book" /> {{$static.metadata.siteName}}</g-link>
+        <g-link class="nav__link" to="/">
+          <font-awesome-icon icon="fa-solid fa-book" /> {{ $static.metadata.siteName }}
+        </g-link>
         <nav v-if="showNav" class="nav">
           <g-link class="nav__link" to="/about/">Warum Themenkataloge?</g-link>
         </nav>
@@ -16,11 +18,20 @@
     <footer class="footer">
       <div class="navigation-bar">
         <nav v-if="showNav" class="nav">
-        <p class="text-white">Built with ❤️ by <a target="_blank" href="//opendata.bund.de">Kompetenzzentrum Open Data</a></p>
-        <g-link class="nav__link" to="/impressum/"><font-awesome-icon icon="fa-solid fa-circle-info" /> Impressum</g-link>
-        <g-link class="nav__link" to="/datenschutz/"><font-awesome-icon icon="fa-solid fa-shield" /> Datenschutz</g-link>
-        <g-link class="nav__link" to="//github.com/opendatabund"><font-awesome-icon icon="fa-brands fa-github" /> GitHub</g-link>
-        <g-link class="nav__link" to="//twitter.com/OpenDataBundDe"><font-awesome-icon icon="fa-brands fa-twitter" /> Twitter</g-link>        
+          <p class="text-white">Built with ❤️ by <a target="_blank" href="//opendata.bund.de">Kompetenzzentrum Open
+              Data</a></p>
+          <g-link class="nav__link" to="/impressum/">
+            <font-awesome-icon icon="fa-solid fa-circle-info" /> Impressum
+          </g-link>
+          <g-link class="nav__link" to="/datenschutz/">
+            <font-awesome-icon icon="fa-solid fa-shield" /> Datenschutz
+          </g-link>
+          <g-link class="nav__link" to="//github.com/opendatabund">
+            <font-awesome-icon icon="fa-brands fa-github" /> GitHub
+          </g-link>
+          <g-link class="nav__link" to="//twitter.com/OpenDataBundDe">
+            <font-awesome-icon icon="fa-brands fa-twitter" /> Twitter
+          </g-link>
         </nav>
       </div>
     </footer>
@@ -52,6 +63,7 @@ export default {
   min-height: 80vh;
   padding-top: 40px;
 }
+
 .layout {
   max-width: 960px;
   margin: 0 auto;
@@ -59,9 +71,11 @@ export default {
   padding-right: 20px;
   padding-bottom: 30px;
 }
+
 .header {
   background: var(--bg-header);
 }
+
 .navigation-bar {
   max-width: 960px;
   margin: 0 auto;
@@ -95,7 +109,7 @@ export default {
   background: var(--bg-footer);
   height: 100px;
   display: flex;
-  	flex-direction: column;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -107,11 +121,13 @@ export default {
     }
   }
 }
+
 @media screen and (max-width: 650px) {
   .header {
     height: 65px;
   }
 }
+
 @media screen and (min-width: 760px) {
   .header {
     position: sticky;
@@ -119,7 +135,9 @@ export default {
     z-index: 1000;
   }
 }
+
 @media screen and (min-width: 1024px) {
+
   .layout,
   .navigation-bar {
     max-width: 1000px;
