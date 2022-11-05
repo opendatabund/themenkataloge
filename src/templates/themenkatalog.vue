@@ -119,24 +119,24 @@
 </template>
 
 <page-query>
-query ($id: ID!) {
-  themenkatalog(id: $id) {
-      title
-      full_title
-      cover_image(width: 700, height: 400, blur: 7, fit:cover )
-      agri
-      econ
-      educ
-      ener
-      envi
-      heal
-      intr
-      just
-      soci
-      gove
-      regi
-      tech
-      tran
+query themenkatalog($path: String!) {
+  themenkatalog: themenkatalog(path: $path) {
+    title
+    full_title
+    cover_image(width: 700, height: 400, blur: 7, fit: cover)
+    agri
+    econ
+    educ
+    ener
+    envi
+    heal
+    intr
+    just
+    soci
+    gove
+    regi
+    tech
+    tran
   }
 }
 </page-query>
