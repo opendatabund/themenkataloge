@@ -18,6 +18,7 @@ module.exports = {
       options: {
         typeName: 'Themenkatalog',
         path: 'content/catalogue/*.md',
+        resolveAbsolutePaths: true,
         refs: {
           tags: {
             typeName: 'Tag',
