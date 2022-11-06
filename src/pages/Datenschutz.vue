@@ -19,7 +19,7 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: 'Datenschutzerlärung'
+    title: 'Datenschutzerklärung'
   }
 };
 </script>
