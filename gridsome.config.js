@@ -6,8 +6,8 @@
 
 module.exports = {
   siteName: 'Themenkataloge des Bundes',
-  siteUrl: 'https://thilakm-git.github.io',
-  pathPrefix: '/themenkataloge.bund',
+  siteUrl: 'https://opendatabund.github.io',
+  pathPrefix: '/themenkataloge',
   templates: {
     Themenkatalog: '/:title',
     Tag: '/tag/:id'
