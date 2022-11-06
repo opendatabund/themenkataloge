@@ -352,7 +352,7 @@ query themenkatalog($path: String!) {
   themenkatalog: themenkatalog(path: $path) {
     title
     full_title
-    cover_image(width: 700, height: 400, blur: 7, fit: cover)
+    cover_image
     agri
     econ
     educ

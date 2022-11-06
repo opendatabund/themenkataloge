@@ -15,7 +15,7 @@ query Themenkatalog {
           ... on Themenkatalog {
             title
             path
-            cover_image(width: 700, height: 400, blur: 7, fit:cover )
+            cover_image
             date(format: "D. MMMM YYYY")
           }
         }

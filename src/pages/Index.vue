@@ -13,7 +13,7 @@ query{
       node{
         title
         path
-        cover_image(width: 700, height: 400, blur: 7, fit:cover )
+        cover_image
       }
     }
   }
