@@ -1,6 +1,6 @@
 ---
 title: AA
-cover_image: /uploads/images/AA_Logo.svg.jpg
+cover_image: "/uploads/images/AA_Logo.svg.jpg"
 full_title: Auswärtiges Amt
 date: 2019-04-20
 
