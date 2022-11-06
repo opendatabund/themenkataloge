@@ -4,23 +4,20 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-
-
 module.exports = {
   siteName: 'Themenkataloge des Bundes',
   siteUrl: 'https://thilakm-git.github.io',
   pathPrefix: '/themenkataloge.bund',
   templates: {
-    themenkatalog: '/:title',
+    Themenkatalog: '/:title',
     Tag: '/tag/:id'
   },
   plugins: [
     {
       use: '@gridsome/source-filesystem',
       options: {
-        typeName: 'themenkatalog',
+        typeName: 'Themenkatalog',
         path: 'content/catalogue/*.md',
-        component: 'src/templates/themenkatalog.vue',
         refs: {
           tags: {
             typeName: 'Tag',

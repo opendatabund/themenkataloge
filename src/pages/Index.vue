@@ -1,14 +1,14 @@
 <template>
   <Layout>
     <div class="work-cards">
-      <WorkCard v-for="edge in $page.themenkatalog.edges" :key="edge.node.id" :work="edge.node" />
+      <WorkCard v-for="edge in $page.Themenkatalog.edges" :key="edge.node.id" :work="edge.node" />
     </div>
   </Layout>
 </template>
 
 <page-query>
 query{
-  themenkatalog: allThemenkatalog( sortBy: "name", order: ASC){
+  Themenkatalog: allThemenkatalog( sortBy: "name", order: ASC){
     edges{
       node{
         title

@@ -8,11 +8,11 @@
 </template>
 
 <page-query>
-query themenkatalog {
-  themenkatalog: allThemenkatalog {
+query Themenkatalog {
+  Themenkatalog: allThemenkatalog {
       edges {
         node {
-          ... on themenkatalog {
+          ... on Themenkatalog {
             title
             path
             cover_image(width: 700, height: 400, blur: 7, fit:cover )
