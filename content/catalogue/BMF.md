@@ -1,6 +1,6 @@
 ---
 title: BMF
-cover_image: /uploads/images/BMF_Logo.svg.jpg
+cover_image: uploads/images/BMF_Logo.svg.jpg
 full_title: Bundesministerium der Finanzen
 date: 2019-04-20
 

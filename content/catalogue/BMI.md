@@ -1,6 +1,6 @@
 ---
 title: BMI
-cover_image: /uploads/images/BMI_Logo.svg.jpg
+cover_image: uploads/images/BMI_Logo.svg.jpg
 full_title: Bundesministerium des Innern und für Heimat
 date: 2019-04-20
 

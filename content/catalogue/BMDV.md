@@ -1,6 +1,6 @@
 ---
 title: BMDV
-cover_image: /uploads/images/BMDV_Logo.svg.jpg
+cover_image: uploads/images/BMDV_Logo.svg.jpg
 full_title: Bundesministerium für Digitales und Verkehr
 date: 2019-04-20
 

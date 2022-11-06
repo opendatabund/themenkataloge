@@ -1,6 +1,6 @@
 ---
 title: BMZ
-cover_image: /uploads/images/BMZ_Logo2.svg.jpg
+cover_image: uploads/images/BMZ_Logo2.svg.jpg
 full_title: Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung
 date: 2019-04-20
 

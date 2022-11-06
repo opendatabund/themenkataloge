@@ -1,6 +1,6 @@
 ---
 title: BMEL
-cover_image: /uploads/images/BMEL_Logo.svg.jpg
+cover_image: uploads/images/BMEL_Logo.svg.jpg
 full_title: Bundesministerium für Ernährung und Landwirtschaft
 date: 2019-04-20
 

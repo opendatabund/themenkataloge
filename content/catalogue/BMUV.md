@@ -1,6 +1,6 @@
 ---
 title: BMUV
-cover_image: /uploads/images/BMUV_Logo2.svg.jpg
+cover_image: uploads/images/BMUV_Logo2.svg.jpg
 full_title: Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz
 date: 2019-04-20
 

@@ -1,7 +1,7 @@
 ---
 title: BMWK
 full_title: Bundesministerium für Wirtschaft und Klimaschutz
-cover_image: /uploads/images/BMWK_Logo.svg.jpg
+cover_image: uploads/images/BMWK_Logo.svg.jpg
 date: 2019-04-20
 
 agri: >

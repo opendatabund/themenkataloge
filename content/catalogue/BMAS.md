@@ -1,6 +1,6 @@
 ---
 title: BMAS
-cover_image: /uploads/images/BMAS_Logo.svg.jpg
+cover_image: uploads/images/BMAS_Logo.svg.jpg
 full_title: Bundesministerium für Arbeit und Soziales
 date: 2019-04-20
 

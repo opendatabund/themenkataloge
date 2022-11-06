@@ -1,6 +1,6 @@
 ---
 title: BMG
-cover_image: /uploads/images/BMG_Logo.svg.jpg
+cover_image: uploads/images/BMG_Logo.svg.jpg
 full_title: Bundesministerium für Gesundheit
 date: 2019-04-20
 

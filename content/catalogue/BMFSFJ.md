@@ -1,6 +1,6 @@
 ---
 title: BMFSFJ
-cover_image: /uploads/images/BMFSFJ_Logo.svg.jpg
+cover_image: uploads/images/BMFSFJ_Logo.svg.jpg
 full_title: Bundesministerium für Familie, Senioren, Frauen und Jugend
 date: 2019-04-20
 

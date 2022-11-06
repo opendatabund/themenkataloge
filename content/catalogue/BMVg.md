@@ -1,6 +1,6 @@
 ---
 title: BMVg
-cover_image: /uploads/images/BMVG_Logo.svg.jpg
+cover_image: uploads/images/BMVG_Logo.svg.jpg
 full_title: Bundesministerium der Verteidigung
 date: 2019-04-20
 
