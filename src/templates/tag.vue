@@ -1,12 +1,12 @@
 <template>
   <Layout :showNav="true">
-    <h1>{{ $page.tag.title}}</h1>
-
+    <h1>{{ $page.tag.title }}</h1>
     <div class="work-cards">
       <WorkCard v-for="edge in $page.tag.belongsTo.edges" :key="edge.node.id" :work="edge.node" />
     </div>
   </Layout>
 </template>
+
 <page-query>
 query themenkatalog {
   themenkatalog: allThemenkatalog {
@@ -40,4 +40,5 @@ export default {
 </script>
 
 <style>
+
 </style>

@@ -16,7 +16,7 @@
     "bootstrap": "^5.2.0",
     "bootstrap-vue": "^2.22.0",
     "gh-pages": "^4.0.0",
-    "gridsome": "^0.7.10",
+    "gridsome": "^0.7.23",
     "typeface-ibm-plex-sans": "^1.1.13"
   },
   "devDependencies": {

@@ -4,7 +4,7 @@
             <aside class="sidebar">
                 <b-img :src="$page.themenkatalog.cover_image" fluid></b-img>
                 <h5 class="text-white"><br>Themenkataloge<br><small class="text-muted">{{ $page.themenkatalog.full_title
-                        }}</small></h5>
+                }}</small></h5>
             </aside>
         </div>
         <div class="content">
