@@ -31,6 +31,5 @@ tech: >
 tran: >
     "autonomes Fahren" OR "Mobilität" OR "ÖPNV" OR "Public transport"
 ---
----
 
-
+// dcat-ap Kategorien: https://github.com/GovDataOfficial/DCAT-AP.de/blob/cb608e76cf73b1fdccf6b137ab8b88c23f01f791/Releases/DCAT-AP.de%20V2.0/implRules/020_conventions_dataset.md#angaben-zu-kategorien-dcattheme-angaben-zu-kategorien
