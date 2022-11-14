@@ -1,3 +1,10 @@
+<p align="center">
+  <br>
+  <a href="https://opendata.bund.de">
+    <img src="https://www.bva.bund.de/SharedDocs/Bilder/DE/Behoerden/Beratung/OpenData/logo_opendata.png?__blob=normal&v=4"/>
+  </a>
+</p>
+
 # Themenkataloge für Bundesministerien
 
 Die Themenkataloge unterstützen die Open-Data-Koordinator*innen (gemäß [§ 12a EGovG](https://www.gesetze-im-internet.de/egovg/__12a.html)) der Bundesministerien beim Aufbau eines internen Datenkatalogs (Fremd-Screening) sowie zur Erhöhung themenspezifischer Metadaten- und Datenqualität.
