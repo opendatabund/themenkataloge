@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: "12"
       - run: npm i
-      - run: 
+      - run: |
           git config --local user.email "opendata@bva.bund.de"
           git config --local user.name "Kompetenzzentrum Open Data"
           npm run deploy
