@@ -11,13 +11,15 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: actions/checkout@v2
-      - name: Generate static Gridsome files
+      - name: Set up node
         uses: actions/setup-node@v2
         with:
           node-version: "12"
       - run: npm i
-      - run: npm run deploy
+      - run: |
+          git config --global user.email "opendata@bva.bund.de
+          git config --global user.name "Kompetenzzentrum Open Data"
+          npm run deploy
 
       - name: Init new repo in dist folder and commit generated files
         run: |
