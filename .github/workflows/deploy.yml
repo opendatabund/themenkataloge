@@ -16,8 +16,8 @@ jobs:
           node-version: "12"
       - run: npm i
       - run: |
-          git config --local user.email "opendata@bva.bund.de"
-          git config --local user.name "Kompetenzzentrum Open Data"
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
           npm run deploy
 
       - name: Init new repo in dist folder and commit generated files
@@ -25,8 +25,6 @@ jobs:
           cd dist
           git init
           git add -A
-          git config --local user.email "opendata@bva.bund.de"
-          git config --local user.name "Kompetenzzentrum Open Data"
           git commit -m 'deploy'
       - name: Force push to destination branch
         uses: ad-m/github-push-action@v0.5.0
