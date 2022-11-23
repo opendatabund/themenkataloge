@@ -15,7 +15,10 @@ jobs:
         with:
           node-version: "12"
       - run: npm i
-      - run: npm run deploy
+      - run: 
+          git config --local user.email "opendata@bva.bund.de"
+          git config --local user.name "Kompetenzzentrum Open Data"
+          npm run deploy
 
       - name: Init new repo in dist folder and commit generated files
         run: |
