@@ -5,12 +5,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-     GH_PAGES_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
 
     steps:
       - uses: actions/checkout@v2
-
+      - uses: fregante/setup-git-user@v1
       - name: Set up node
         uses: actions/setup-node@v2
         with:
