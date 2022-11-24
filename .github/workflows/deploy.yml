@@ -14,10 +14,11 @@ jobs:
         with:
           node-version: "12"
 
+      - name: Install gridsome
+        run: npm install --global @gridsome/cli
+        
       - name: Install dependencies
-        run: |
-          npm install --global @gridsome/cli
-          npm i
+        run: npm i
 
       - name: Build static files
         run: gridsome build
