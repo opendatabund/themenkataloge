@@ -5,7 +5,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    env:
+      GITHUB_TOKEN: ${{ secrets.github_token }}
+      DEPLOY_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
+    
     steps:
       - uses: actions/checkout@v3
       
