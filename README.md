@@ -30,6 +30,9 @@ Themenkataloge sind ein *Beitrag zum Aufbau eines internen Datenkatalogs* eines 
 - Referenz für Daten- und Metadatenqualität
 - Open-Data-Koordinator*innen sammeln praktische Erfahrungen mit Datenportalen
 
+## Anleitungen 
+Anleitungen für CCOD Mitarbeiter*innen sind im [Wiki](https://github.com/opendatabund/themenkataloge/wiki) auffindbar.
+
 ## Installation
 [Gridsome](https://gridsome.org/docs/#prerequisites) erfordert [Node.js](https://nodejs.org/) (v8.3+) und empfiehlt [Yarn](https://yarnpkg.com/).
 ### 1. Installiere Gridsome CLI, falls noch nicht vorhanden
@@ -39,5 +42,3 @@ Themenkataloge sind ein *Beitrag zum Aufbau eines internen Datenkatalogs* eines 
 2. `cd my-gridsome-site` um den Ordner zu öffnen
 3. `gridsome develop` um einen lokalen dev server auf `http://localhost:8080` zu starten
 4. Happy coding 🎉🙌
-
-## Mehr Dokumentation folgt
