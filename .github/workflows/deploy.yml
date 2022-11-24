@@ -11,14 +11,13 @@ jobs:
     
     steps:
       - uses: actions/checkout@v3
-      
+      - run: git config --local user.email "action@github.com"
+      - run: git config --local user.name "GitHub Action"      
       - name: Set up node
         uses: actions/setup-node@v2
         with:
           node-version: "12"
       - run: npm i
-      - run: git config --local user.email "action@github.com"
-      - run: git config --local user.name "GitHub Action"
       - run: npm run deploy
 
       - name: Init new repo in dist folder and commit generated files
@@ -26,8 +25,6 @@ jobs:
           cd dist
           git init
           git add -A
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
           git commit -m 'deploy'
       - name: Force push to destination branch
         uses: ad-m/github-push-action@v0.6.0
