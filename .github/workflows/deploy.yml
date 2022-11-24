@@ -5,31 +5,24 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      GITHUB_TOKEN: ${{ secrets.github_token }}
-      DEPLOY_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
-    
+
     steps:
       - uses: actions/checkout@v3
-      - run: git config --local user.email "action@github.com"
-      - run: git config --local user.name "GitHub Action"      
+
       - name: Set up node
         uses: actions/setup-node@v2
         with:
           node-version: "12"
-      - run: npm i
-      - run: npm run deploy
 
-      - name: Init new repo in dist folder and commit generated files
-        run: |
-          cd dist
-          git init
-          git add -A
-          git commit -m 'deploy'
-      - name: Force push to destination branch
-        uses: ad-m/github-push-action@v0.6.0
+      - name: Install dependencies
+        run: npm i
+
+      - name: build static files
+        run: gridsome build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: gh-pages
-          force: true
-          directory: ./dist
+          publish_dir: ./public
