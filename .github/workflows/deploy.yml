@@ -17,6 +17,8 @@ jobs:
         with:
           node-version: "12"
       - run: npm i
+      - run: git config --local user.email "action@github.com"
+      - run: git config --local user.name "GitHub Action"
       - run: npm run deploy
 
       - name: Init new repo in dist folder and commit generated files
