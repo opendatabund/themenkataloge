@@ -31,9 +31,9 @@ Themenkataloge sind ein *Beitrag zum Aufbau eines internen Datenkatalogs* eines 
 - Open-Data-Koordinator*innen sammeln praktische Erfahrungen mit Datenportalen
 
 ## Anleitungen 
-Anleitungen für CCOD Mitarbeiter*innen sind im [Wiki](https://github.com/opendatabund/themenkataloge/wiki) auffindbar.
+Anleitungen für CCOD Mitarbeiter*innen zur technischen Bearbeitung der Inhalte der Themenkataloge sind im [Wiki](https://github.com/opendatabund/themenkataloge/wiki) auffindbar.
 
-## Installation
+## Du willst ähnliche Themenkataloge bauen? Lokal installieren:
 [Gridsome](https://gridsome.org/docs/#prerequisites) erfordert [Node.js](https://nodejs.org/) (v8.3+) und empfiehlt [Yarn](https://yarnpkg.com/).
 ### 1. Installiere Gridsome CLI, falls noch nicht vorhanden
 `npm install --global @gridsome/cli`
