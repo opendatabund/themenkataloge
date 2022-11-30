@@ -29,6 +29,9 @@
           <g-link class="nav__link" to="//github.com/opendatabund">
             <font-awesome-icon icon="fa-brands fa-github" /> GitHub
           </g-link>
+          <g-link class="nav__link" to="//social.bund.de/web/@opendatabund">
+            <font-awesome-icon icon="fa-brands fa-mastodon" /> Mastodon
+          </g-link>
           <g-link class="nav__link" to="//twitter.com/OpenDataBundDe">
             <font-awesome-icon icon="fa-brands fa-twitter" /> Twitter
           </g-link>
