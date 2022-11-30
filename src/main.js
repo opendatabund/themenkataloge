@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { config, library } from '@fortawesome/fontawesome-svg-core';
-import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faTwitter, faMastodon } from '@fortawesome/free-brands-svg-icons';
 import { faInfo, faTractor, faChartLine, faSchool, faLightbulb, faSeedling, faFileMedical, faGlobe, faSection, faPeopleGroup, faLandmark, 
   faTreeCity, faAtom, faBus, faBook, faMagnifyingGlass, faCircleInfo, faShield } from '@fortawesome/free-solid-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css';
