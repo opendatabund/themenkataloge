@@ -1,30 +1,30 @@
 ---
 title: BMAS
 cover_image: uploads/images/BMAS_Logo.svg.jpg
-full_title: Bundesministerium für Arbeit und Soziales
+full_title: Bundesministerium fÃ¼r Arbeit und Soziales
 date: 2019-04-20
 
 agri: >
     "Alterssicherung der Landwirte"
 econ: >
-    "Finanzierung der Arbeitsmarktpolitik" OR "Finanzielle Fragen der Arbeitsmarktpolitik" OR "Steuern und Finanzen" OR "Finanzierung von Alterssicherungssystemen" OR "Finanzielle Grundsatzfragen der Sozialpolitik" OR "Finanzrechnungen zu Sozialleistungen" OR "Finanzielle und Statistische Fragen der sozialen Integration " OR "Finanzen und Statistik der Sozialversicherung" OR "Finanzierung Rentenversicherung" OR "Finanzielle Prüfung der zugelassenen kommunalen Träger" OR "Gesamtwirtschaftliche Fragen des sozialen Europas" OR "Grundsatzfragen der gesamtwirtschaftlichen Entwicklung" OR "Wirtschaftliche Voraussetzungen der Sozialhilfe" OR "sozialen Marktwirtschaft" OR "Zukunft der sozialen Marktwirtschaft" OR "wirtschaftliche Grundlagen des Arbeitsrechts" OR "Regelbedarfsermittlung"
+    "Finanzierung der Arbeitsmarktpolitik" OR "Finanzielle Fragen der Arbeitsmarktpolitik" OR "Steuern und Finanzen" OR "Finanzierung von Alterssicherungssystemen" OR "Finanzielle Grundsatzfragen der Sozialpolitik" OR "Finanzrechnungen zu Sozialleistungen" OR "Finanzielle und Statistische Fragen der sozialen Integration" OR "Finanzen und Statistik der Sozialversicherung" OR "Finanzierung Rentenversicherung" OR "Finanzielle PrÃ¼fung der zugelassenen kommunalen TrÃ¤ger" OR "Gesamtwirtschaftliche Fragen des sozialen Europas" OR "Grundsatzfragen der gesamtwirtschaftlichen Entwicklung" OR "Wirtschaftliche Voraussetzungen der Sozialhilfe" OR "sozialen Marktwirtschaft" OR "Zukunft der sozialen Marktwirtschaft" OR "wirtschaftliche Grundlagen des Arbeitsrechts" OR "Regelbedarfsermittlung"
 educ: >
-    "Inklusion im Sport" OR "Förderung der beruflichen Bildung" OR "Ausbildungsvermittlung " OR "Nationale Weiterbildungsstrategie" OR "Taskforce Bildungszeitgesetz" OR "Fachkräftesicherung"
+    "Inklusion im Sport" OR "FÃ¶rderung der beruflichen Bildung" OR "Ausbildungsvermittlung" OR "Nationale Weiterbildungsstrategie" OR "Taskforce Bildungszeitgesetz" OR "FachkrÃ¤ftesicherung"
 ener:
 envi:
 heal: >
     "Gesundheitliche Auswirkungen des Wandels der Arbeit" OR "Koordinierung Gesundheitspolitik" OR "Sicherheit und Gesundheit bei der Arbeit"
 intr: >
-    "Europäische Sozialpolitik" OR "Europäische Migration" OR "Europäisches Parlament " OR "soziales Europa" OR "Internationaler Besucherdienst" OR "Bekämpfung Menschenhandel " OR "Internationale Fragen der Sozialen Entschädigung" OR "Internationale Arbeitsorganisation " OR "internationale Arbeitsmarktpolitik " OR "Internationale Angelegenheiten der Sozialversicherung" OR "Internationale Angelegenheiten der Rentenversicherung" OR "Internationale Sozialpolitik" OR "Europäische Beschäftigungspolitik" OR "Internationale Beschäftigungspolitik" OR "EU-Außenbeziehungen" OR "EU-Erweiterung" OR "EU-Erweiterung " OR "Bekämpfung Zwangsarbeit" OR "Vereinte Nationen" OR "IAO"
+    "EuropÃ¤ische Sozialpolitik" OR "EuropÃ¤ische Migration" OR "EuropÃ¤isches Parlament" OR "soziales Europa" OR "Internationaler Besucherdienst" OR "BekÃ¤mpfung Menschenhandel" OR "Internationale Fragen der Sozialen EntschÃ¤digung" OR "Internationale Arbeitsorganisation" OR "internationale Arbeitsmarktpolitik" OR "Internationale Angelegenheiten der Sozialversicherung" OR "Internationale Angelegenheiten der Rentenversicherung" OR "Internationale Sozialpolitik" OR "EuropÃ¤ische BeschÃ¤ftigungspolitik" OR "Internationale BeschÃ¤ftigungspolitik" OR "EU-AuÃŸenbeziehungen" OR "EU-Erweiterung" OR "EU-Erweiterung" OR "BekÃ¤mpfung Zwangsarbeit" OR "Vereinte Nationen" OR "IAO"
 just: >
     "Chemikaliensicherheit" OR "Produktsicherheit" OR "Sozialrechtssystem" OR "Biologische Sicherheit" OR "Betriebssicherheit" OR "Anlagensicherheit"
 soci: >
-    "Finanzielle und Statistische Fragen der sozialen Integration" OR "Beschäftigung ausländischer Arbeitnehmer" OR "Flüchtlingspolitik" OR "Prävention von Altersarmut" OR "soziale Absicherung Selbständiger" OR "Soziale Dimension der Klimapolitik" OR "Einkommensverteilung " OR "Analyse des Arbeitsmarktes " OR "Bürgergeld" OR "Tarifregister" OR "Alterssicherung der Landwirte" OR "Gleichstellung behinderter Menschen" OR "Teilhabe schwerbehinderter Menschen Werkstätten" OR "Inklusion im Sport" OR "Soziale Dimension der Umweltpolitik" OR "Sozialindikatoren" OR "Vermögensverteilung " OR "Arbeitsmarktstatistik"
+    "Finanzielle und Statistische Fragen der sozialen Integration" OR "BeschÃ¤ftigung auslÃ¤ndischer Arbeitnehmer" OR "FlÃ¼chtlingspolitik" OR "PrÃ¤vention von Altersarmut" OR "soziale Absicherung SelbstÃ¤ndiger" OR "Soziale Dimension der Klimapolitik" OR "Einkommensverteilung" OR "Analyse des Arbeitsmarktes" OR "BÃ¼rgergeld" OR "Tarifregister" OR "Alterssicherung der Landwirte" OR "Gleichstellung behinderter Menschen" OR "Teilhabe schwerbehinderter Menschen WerkstÃ¤tten" OR "Inklusion im Sport" OR "Soziale Dimension der Umweltpolitik" OR "Sozialindikatoren" OR "VermÃ¶gensverteilung" OR "Arbeitsmarktstatistik"
 gove: >
-    "Korruptionsprävention" OR "Statistik (Controlling und Rechnungswesen der Sozialversicherung)" OR "Statistik (Bundesagentur für Arbeit, Mittelverteilung)" OR "Arbeitslosenversicherung " OR "Bau- und Liegenschaftsmanagement" OR "Forschung und Innovation (im Kontext von Sozialstaat)" OR "Förderung der Teilhabe" OR "Förderung der Beschäftigung und selbstständigen Erwerbstätigkeit" OR "Informationsfreiheitsgesetz (Anfragestatistik)" OR "Förderung der beruflichen Bildung" OR "Leistung zur Sicherung des Lebensunterhalts in der Grundsicherung für Arbeitsuchende" OR "Leistungen der Grundsicherung zur Schaffung von Arbeitsplätzen" OR "Sozialhilfe" OR "Haushalt" OR "Ausbildungsförderung" OR "Arbeitsmarktförderung" OR "Eingliederungshilfe" OR "Förderprogramme"
+    "KorruptionsprÃ¤vention" OR "Statistik (Controlling und Rechnungswesen der Sozialversicherung)" OR "Statistik (Bundesagentur fÃ¼r Arbeit, Mittelverteilung)" OR "Arbeitslosenversicherung" OR "Bau- und Liegenschaftsmanagement" OR "Forschung und Innovation (im Kontext von Sozialstaat)" OR "FÃ¶rderung der Teilhabe" OR "FÃ¶rderung der BeschÃ¤ftigung und selbststÃ¤ndigen ErwerbstÃ¤tigkeit" OR "Informationsfreiheitsgesetz (Anfragestatistik)" OR "FÃ¶rderung der beruflichen Bildung" OR "Leistung zur Sicherung des Lebensunterhalts in der Grundsicherung fÃ¼r Arbeitsuchende" OR "Leistungen der Grundsicherung zur Schaffung von ArbeitsplÃ¤tzen" OR "Sozialhilfe" OR "Haushalt" OR "AusbildungsfÃ¶rderung" OR "ArbeitsmarktfÃ¶rderung" OR "Eingliederungshilfe" OR "FÃ¶rderprogramme"
 regi:
 tech: >
-    "Forschung und Innovation " OR "Teilhabeforschung" OR "Arbeitsmarktforschung" OR "Forschung und Innovation in der EU"
+    "Forschung und Innovation" OR "Teilhabeforschung" OR "Arbeitsmarktforschung" OR "Forschung und Innovation in der EU"
 tran:
 ---
 

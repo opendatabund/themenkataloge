@@ -6,7 +6,7 @@ date: 2019-04-20
 
 agri:
 econ: >
-    "Wirtschaftssfragen" OR "Handels- und Wirtschaftsrecht" OR "Wirtschaftsunion" OR "Wirtschaftsdiplomatie" OR "Wirtschaftssanktionen " OR "Wirtschaftspolitik" OR "Finanzhilfen" OR "Außenfinanzierungsinstrumente" OR "externe Finanzkontrolle" OR "Wirtschaft und Menschenrechte" OR "Finanzierung des internationalen Klimaschutzes" OR "Klimaschutz in Entwicklungsbanken" OR "nachhaltige Finanzierung" OR "Währungsunion" OR "Investitionsprüfung" OR "Außenwirtschaft"
+    "Wirtschaftssfragen" OR "Handels- und Wirtschaftsrecht" OR "Wirtschaftsunion" OR "Wirtschaftsdiplomatie" OR "Wirtschaftssanktionen" OR "Wirtschaftspolitik" OR "Finanzhilfen" OR "Außenfinanzierungsinstrumente" OR "externe Finanzkontrolle" OR "Wirtschaft und Menschenrechte" OR "Finanzierung des internationalen Klimaschutzes" OR "Klimaschutz in Entwicklungsbanken" OR "nachhaltige Finanzierung" OR "Währungsunion" OR "Investitionsprüfung" OR "Außenwirtschaft"
 educ: >
     "Kulturpolitik" OR "amtsinterne EU-Fortbildung" OR "Diplomatenausbildung" OR "Kulturbeziehungen" OR "Kulturgesellschaften" OR "Kulturprojekte" OR "Deutsches Archäologisches Institut" OR "kulturpolitische Zusammenarbeit" OR "Sport" OR "interkulktureller Dialog" OR "Förderung der deutschen Sprache in EU-Institutionen" OR "Goethe Institut" OR "Auslandsschulen" OR "Bildungspolitik" OR "Medienbeziehungen" OR "Kulturgutschutz"
 ener: >
@@ -21,11 +21,11 @@ just: >
     "Polizei" OR "Kriminalität" OR "Gemeinsame Sicherheits- und Verteidigungpolitik" OR "Terrorismus" OR "Klima und Sicherheit" OR "organisierte Kriminalität" OR "Drogenhandel"
 soci:
 gove: >
-    "Korruptionsprävention" OR "Abrüstung" OR "Immobilienmanagement " OR "Informationsfreiheitsgesetz (Anfragestatistik)" OR "Organisationsstrukturen" OR "Budgets der Auslandsvertretungen" OR "Haushalt"
+    "Korruptionsprävention" OR "Abrüstung" OR "Immobilienmanagement" OR "Informationsfreiheitsgesetz (Anfragestatistik)" OR "Organisationsstrukturen" OR "Budgets der Auslandsvertretungen" OR "Haushalt"
 regi: >
     "humanitären Hilfe in Regionen" OR "Städtediplomatie" OR "Urbanisierung"
 tech: >
-    "Forschung und Innovation " OR "Wissenschaftszusammenarbeit" OR "Technologiepolitik" OR "Internationale Wissenschaftspolitik" OR "Forschung und Innovation in der EU"
+    "Forschung und Innovation" OR "Wissenschaftszusammenarbeit" OR "Technologiepolitik" OR "Internationale Wissenschaftspolitik" OR "Forschung und Innovation in der EU"
 tran: >
     "Mobilität"
 ---

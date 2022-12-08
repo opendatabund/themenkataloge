@@ -11,13 +11,13 @@ educ: >
     "Rechtsausbildung" OR "Ausbildung" OR "Bildung" OR "Militärische Ausbildung und Übungen" OR "Hochschulen der Bundeswehr" OR "Auslandsschulen der Bundeswehr"
 ener:
 envi: >
-    "Umweltschutz" OR "Nachhaltigkeit " OR "Klimaschutz"
+    "Umweltschutz" OR "Nachhaltigkeit" OR "Klimaschutz"
 heal: >
     "Betreuung und Fürsorge" OR "Militärseelsorge" OR "Psychologischer Dienst der Bundeswehr" OR "Veteranen" OR "Veteranenangelegenheiten"
 intr: >
-    "Multinationale Verteidigungsplanung " OR "Vereinte Nationen" OR "NATO" OR "EU" OR "GSVP" OR "GASP" OR "Common Security and Defence Policy"
+    "Multinationale Verteidigungsplanung" OR "Vereinte Nationen" OR "NATO" OR "EU" OR "GSVP" OR "GASP" OR "Common Security and Defence Policy"
 just: >
-    "Informationssicherheit" OR "Militärische Sicherheit" OR "Rechtsgebiete (Staats- und Verfassungsrecht, Völker- und Europarecht, Verwaltungsrecht, Bürgerliches Recht, Handels- und Wirtschaftsrecht, Strafrecht)" OR "Sicherheit" OR "Sicherheitspolitik und Verteidigungspolitik" OR "Sicherheitsrecht" OR "Bedrohungsbeurteilung " OR "Terrorismus " OR "Weltraumsicherheit" OR "Sicherheitsbeurteilung " OR "Extremismus"
+    "Informationssicherheit" OR "Militärische Sicherheit" OR "Rechtsgebiete (Staats- und Verfassungsrecht, Völker- und Europarecht, Verwaltungsrecht, Bürgerliches Recht, Handels- und Wirtschaftsrecht, Strafrecht)" OR "Sicherheit" OR "Sicherheitspolitik und Verteidigungspolitik" OR "Sicherheitsrecht" OR "Bedrohungsbeurteilung" OR "Terrorismus" OR "Weltraumsicherheit" OR "Sicherheitsbeurteilung" OR "Extremismus"
 soci: >
     "Reservisten- und Veteranenangelegenheiten"
 gove: >

@@ -6,7 +6,7 @@ date: 2019-04-20
 
 agri:
 econ: >
-    "Großhandel" OR "Wirtschaftliche Fragen der Krankenhäuser" OR "wirtschaftliche Fragen des Rettungsdienstes" OR "Finanzielle Angelegenheiten der Pflegeversicherung" OR "Krankenhausfinanzierung" OR "Krankenversicherung" OR "Vergütung ambulanter ärztlicher Leistungen" OR "Betäubungsmittelverkehr" OR "Blut " OR "Blutprodukte"
+    "Großhandel" OR "Wirtschaftliche Fragen der Krankenhäuser" OR "wirtschaftliche Fragen des Rettungsdienstes" OR "Finanzielle Angelegenheiten der Pflegeversicherung" OR "Krankenhausfinanzierung" OR "Krankenversicherung" OR "Vergütung ambulanter ärztlicher Leistungen" OR "Betäubungsmittelverkehr" OR "Blut" OR "Blutprodukte"
 educ: >
     "Berufszugang Heilberufen" OR "Ausbildung Heilberufen" OR "Bildung"
 ener:
@@ -15,7 +15,7 @@ envi: >
 heal: >
     "Medizinische Datenbanken und Register" OR "Sucht und Drogen" OR "Krebserkrankungen" OR "Herz-Kreislauferkrankungen" OR "Psychiatrie" OR "Gesundheitsstatistik" OR "Infektionskrankheiten" OR "Trinkwasser" OR "Neurologie" OR "Pädiatrie" OR "Diabetes" OR "Nicht übertragbare Krankheiten"
 intr: >
-    "internationale Gesundheitspolitik" OR "Internationale Suchtstofffragen" OR "EU Strategie " OR "EU-Koordinierung" OR "Globale Gesundheitspolitik" OR "Fachkräfte Ausland" OR "Europäische  Gesundheitspolitik" OR "OECD" OR "Migration" OR "Integration"
+    "internationale Gesundheitspolitik" OR "Internationale Suchtstofffragen" OR "EU Strategie" OR "EU-Koordinierung" OR "Globale Gesundheitspolitik" OR "Fachkräfte Ausland" OR "Europäische  Gesundheitspolitik" OR "OECD" OR "Migration" OR "Integration"
 just:
 soci: >
     "Implantateregister Deutschland (IRD)"
