@@ -15,17 +15,17 @@ ener: >
 envi: >
     "Ressourcenschutz" OR "Biodiversität" OR "Naturschutz" OR "Meeresumweltschutz" OR "Pflanzenschutz" OR "Agrarumweltmaßnahmen" OR "Nachhaltigkeit" OR "Bienenschutz" OR "nachwachsende Rohstoffe" OR "Umweltschutz" OR "Insektenschutz"'
 heal: >
-    "Tiergesundheit" OR "Gesundheitlicher Verbraucherschutz" OR "Pflanzengesundheit" OR "Verbraucherschutz" OR "Futtermittelsicherheit" OR "Tierschutz" OR "Tierseuchen " OR "Lebensmittelsicherheit"'
+    "Tiergesundheit" OR "Gesundheitlicher Verbraucherschutz" OR "Pflanzengesundheit" OR "Verbraucherschutz" OR "Futtermittelsicherheit" OR "Tierschutz" OR "Tierseuchen" OR "Lebensmittelsicherheit"'
 intr: >
-    "Internationale Lebensmittelsicherheitspolitik" OR "Internationale Grundstoffpolitik" OR "Europäische und Internationale Waldpolitik" OR "EU-Angelegenheiten " OR "Internationale Zusammenarbeit" OR "Internationale Handelsangelegenheiten" OR "Welternährung " OR "Internationale Projekte" OR "Export" OR "Absatzförderung" OR "Fluchtursachenbekämpfung" OR "Internationale Organisationen der Ernährungswirtschaft" OR "Internationale Organisationen der  Landwirtschaft" OR "EU-Agrarfinanzierung"'
+    "Internationale Lebensmittelsicherheitspolitik" OR "Internationale Grundstoffpolitik" OR "Europäische und Internationale Waldpolitik" OR "EU-Angelegenheiten" OR "Internationale Zusammenarbeit" OR "Internationale Handelsangelegenheiten" OR "Welternährung" OR "Internationale Projekte" OR "Export" OR "Absatzförderung" OR "Fluchtursachenbekämpfung" OR "Internationale Organisationen der Ernährungswirtschaft" OR "Internationale Organisationen der  Landwirtschaft" OR "EU-Agrarfinanzierung"'
 just: >
     "Produktsicherheit" OR "Lebensmittelsicherheit" OR "Futtermittelsicherheit"'
 soci: >
-    "Gesundheitlicher Verbraucherschutz" OR "Ernährung der Zukunft" OR "Ehrenamt " OR "Gleichwertigkeit der Lebensverhältnisse in ländlichen Räumen" OR "Landjugend" OR "Gleichwertigkeit der Lebensverhältnisse in ländlichen Räumen"'
+    "Gesundheitlicher Verbraucherschutz" OR "Ernährung der Zukunft" OR "Ehrenamt" OR "Gleichwertigkeit der Lebensverhältnisse in ländlichen Räumen" OR "Landjugend" OR "Gleichwertigkeit der Lebensverhältnisse in ländlichen Räumen"'
 gove: >
     "Korruptionsprävention" OR "Internationale Organisationen der Ernährungswirtschaft" OR "Bürokratieabbau" OR "Verwaltungsmanagement" OR "Internationale Organisationen der Landwirtschaft" OR "Kontrollmanagement" OR "Vereinfachung der GAP" OR "Informationsfreiheitsgesetz (Anfragestatistik)"'
 regi: >
-    "Regionalentwicklung" OR "Ländliche Räume" OR "Gleichwertige Lebensverhältnisse" OR "Digitalisierung in ländlichen Räumen" OR "Mobilität " OR "Ländliche Entwicklung" OR "ÖPNV" OR "Public transport" OR "Dorfentwicklung" OR "Digital infrastructure"'
+    "Regionalentwicklung" OR "Ländliche Räume" OR "Gleichwertige Lebensverhältnisse" OR "Digitalisierung in ländlichen Räumen" OR "Mobilität" OR "Ländliche Entwicklung" OR "ÖPNV" OR "Public transport" OR "Dorfentwicklung" OR "Digital infrastructure"'
 tech: >
     "Ernährungswissenschaft" OR "Neue Technologien im Kontext Verbraucherschutz" OR "Ernährungsforschung"'
 tran: >

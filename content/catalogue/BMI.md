@@ -13,13 +13,13 @@ envi: >
     "Nachhaltigkeitsbildung" OR "Geoinformationswesen"
 heal:
 intr: >
-    "EUROPOL" OR "Internationale Grenzpolizeiliche Angelegenheiten" OR "Internationaler Terrorismus " OR "Internationaler Extremismus" OR "Visum" OR "Visastatistik" OR "Migration" OR "Aufenthalt" OR "Rückkehr" OR "Asyl" OR "Migrationsstatistik" OR "Asylstatistik" OR "Rückführung" OR "Rückübernahme" OR "EU-Koordinierung" OR "Internationale Kompetenzen" OR "EU-Kompetenzen" OR "Aussiedlerpolitik" OR "Internationale Sportangelegenheiten"
+    "EUROPOL" OR "Internationale Grenzpolizeiliche Angelegenheiten" OR "Internationaler Terrorismus" OR "Internationaler Extremismus" OR "Visum" OR "Visastatistik" OR "Migration" OR "Aufenthalt" OR "Rückkehr" OR "Asyl" OR "Migrationsstatistik" OR "Asylstatistik" OR "Rückführung" OR "Rückübernahme" OR "EU-Koordinierung" OR "Internationale Kompetenzen" OR "EU-Kompetenzen" OR "Aussiedlerpolitik" OR "Internationale Sportangelegenheiten"
 just: >
-    "Polizei " OR "Srafverfolgung" OR "Terrorsimus " OR "Kriminalität " OR "Extremismus" OR "politisch motivierte Kriminalität" OR "Luftsicherheit" OR "Zivilschutz" OR "Bevölkerungsschutz" OR "Technisches Hilfswerk " OR "Schutz kritischer Infrastrukturen" OR "Nationales Waffenregister" OR "Cybersicherheit" OR "Wehrhafte Demokratie " OR "Extremismusprävention" OR "hybride Bedrohungen"
+    "Polizei" OR "Srafverfolgung" OR "Terrorsimus" OR "Kriminalität" OR "Extremismus" OR "politisch motivierte Kriminalität" OR "Luftsicherheit" OR "Zivilschutz" OR "Bevölkerungsschutz" OR "Technisches Hilfswerk" OR "Schutz kritischer Infrastrukturen" OR "Nationales Waffenregister" OR "Cybersicherheit" OR "Wehrhafte Demokratie" OR "Extremismusprävention" OR "hybride Bedrohungen"
 soci: >
     "Migration" OR "Aufenthalt" OR "Rückkehr" OR "Asyl" OR "Minderheiten" OR "Religionsgemeinschaften" OR "Demografischer Wandel" OR "Ehrenamt" OR "bürgerschaftliches Engagement"
 gove: >
-    "Korruptionsprävention" OR "Informationsfreiheitsgesetz (Anfragestatistik)" OR "Bund und Länder" OR "Bundesrat" OR "Büro der Ministerin" OR "Politische Analyse" OR "Politische Planung " OR "Statistik" OR "Integrität" OR "Sponsoring" OR "Digitalpolitik" OR "Öffentliches Auftragswesen" OR "öffentlicher Einkauf" OR "Maßnahmen Infrastruktur und E-Government" OR "Verwaltungsmodernisierung" OR "politische Stiftungen"
+    "Korruptionsprävention" OR "Informationsfreiheitsgesetz (Anfragestatistik)" OR "Bund und Länder" OR "Bundesrat" OR "Büro der Ministerin" OR "Politische Analyse" OR "Politische Planung" OR "Statistik" OR "Integrität" OR "Sponsoring" OR "Digitalpolitik" OR "Öffentliches Auftragswesen" OR "öffentlicher Einkauf" OR "Maßnahmen Infrastruktur und E-Government" OR "Verwaltungsmodernisierung" OR "politische Stiftungen"
 regi: >
     "Regionale Kultur"
 tech: >
